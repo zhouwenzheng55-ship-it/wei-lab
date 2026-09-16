@@ -1,0 +1,33 @@
+# 占位论文数据（请替换为课题组真实论文）
+# 格式说明：id 使用 doi:xxxx 或其它标识符，系统可按标识符自动补齐信息
+
+- id: placeholder-mems-paper-1
+  title: 面向高温环境的 MEMS 压力传感器件设计研究（占位示例）
+  authors:
+  - Wei Ning
+  - Zhou Wenzheng
+  publisher: "Sensors and Actuators A: Physical（占位）"
+  date: '2026-01-15'
+  link: https://example.com/paper1
+  type: paper
+  description: 这是占位论文示例，请替换为课题组真实发表论文。本文围绕高温环境下 MEMS 压力传感器的敏感结构与封装设计开展研究。（占位文字）
+  image: images/photo.jpg
+  tags:
+  - MEMS
+  - 高温传感
+
+- id: placeholder-mems-paper-2
+  title: 辐照环境下 MEMS 器件失效机理与可靠性评估（占位示例）
+  authors:
+  - Zhou Wenzheng
+  - Wei Ning
+  publisher: Journal of Microelectromechanical Systems（占位）
+  date: '2025-09-30'
+  link: https://example.com/paper2
+  type: paper
+  description: 这是占位论文示例，请替换为课题组真实发表论文。本文研究 γ 辐照对 MEMS 压力传感器性能退化的影响规律与机理。（占位文字）
+  image: images/photo.jpg
+  tags:
+  - MEMS
+  - 抗辐照
+  - 可靠性
