@@ -2,7 +2,7 @@
 name: 周文政
 name_en: Wenzheng Zhou
 image: images/photo.jpg
-role: MME
+role: master
 affiliation: 江南大学 机械工程学院
 aliases:
   - W. Zhou
