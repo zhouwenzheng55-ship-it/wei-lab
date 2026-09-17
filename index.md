@@ -5,13 +5,6 @@
 
 欢迎来到江南大学机械工程学院魏宁课题组。课题组面向航空航天、核工业等极端环境应用需求，围绕**耐高温、抗辐照 MEMS 传感器件**开展设计与制造研究，涵盖器件结构设计、微纳加工工艺、封装测试与可靠性评估等方向。
 
-{%
-  include button.html
-  type="github"
-  text="About us"
-  link="team"
-%}
-
 {% include section.html %}
 
 ## 研究方向
