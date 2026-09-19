@@ -133,11 +133,11 @@ body {
   padding: 0 !important;
   margin: 0 !important;
 }
-/* Navbar full width inside card */
+/* Navbar inside card: match card width, centered */
 .navbar {
   border-radius: 0;
-  /* Make navbar background match card width, not full viewport */
-  position: relative !important;
+  max-width: 900px !important;
+  margin: 0 auto !important;
   left: auto !important;
   transform: none !important;
 }
@@ -145,6 +145,12 @@ body {
   max-width: 100% !important;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
+}
+/* Make header (banner + nav) inside centered card */
+header {
+  max-width: 900px !important;
+  margin: 0 auto !important;
+  background: #fff;
 }
 /* Body background light gray, page centered card */
 body {
