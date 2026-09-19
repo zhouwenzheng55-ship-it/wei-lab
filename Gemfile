@@ -1,17 +1,29 @@
-source "https://rubygems.org"
-
-# jekyll
-gem "jekyll", "~> 4.3"
-gem "webrick", "~> 1.7"
-
-# html-proofer is only needed in CI for link checking, skipped locally
-# gem "html-proofer", "~> 5.0"
-
-# plugins
+source 'https://rubygems.org'
 group :jekyll_plugins do
-  gem "jekyll-spaceship"
-  gem "jekyll-sitemap"
-  gem "jekyll-redirect-from"
-  gem "jekyll-feed"
-  gem "jekyll-last-modified-at"
+    gem 'classifier-reborn'
+    gem 'jekyll'
+    gem 'jekyll-archives'
+    gem 'jekyll-email-protect'
+    gem 'jekyll-feed'
+    gem 'jekyll-get-json'
+    gem 'jekyll-imagemagick'
+    gem 'jekyll-jupyter-notebook'
+    gem 'jekyll-link-attributes'
+    gem 'jekyll-minifier'
+    gem 'jekyll-paginate-v2'
+    gem 'jekyll-regex-replace'
+    gem 'jekyll-scholar'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-tabs'
+    gem 'jekyll-toc'
+    gem 'jekyll-twitter-plugin'
+    gem 'jemoji'
+    # gem 'mini_racer' # disabled: fails to build on Windows (libv8-node); not required for local build
+    gem 'unicode_utils'
+    gem 'webrick'
+end
+group :other_plugins do
+    gem 'css_parser'
+    gem 'feedjira'
+    gem 'httparty'
 end
