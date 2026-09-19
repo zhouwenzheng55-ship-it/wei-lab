@@ -1,1 +1,4 @@
+User-agent: *
+Disallow:
+
 Sitemap: https://zhouwenzheng55-ship-it.github.io/wei-lab/sitemap.xml
