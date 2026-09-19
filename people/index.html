@@ -90,8 +90,12 @@
   <body class="fixed-top-nav ">
     <!-- Header -->
     <header>
+  <!-- Banner image (like enlaigao.whu.edu.cn) -->
+  <div class="site-banner">
+    <img src="/wei-lab/assets/img/banner.jpg" alt="Jiangnan University" class="banner-img">
+  </div>
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+  <nav id="navbar" class="navbar navbar-dark navbar-expand-sm fixed-top" role="navigation" style="background-color:#2c3e50;">
     <div class="container">
       
         <a class="navbar-brand title font-weight-lighter" href="/wei-lab/">
@@ -587,7 +591,7 @@
               },
             },{id: "nav-发表论文",
               title: "发表论文",
-              description: "代表性论文（按年份倒序）",
+              description: "代表性论文",
               section: "Navigation",
               handler: () => {
                 window.location.href = "/wei-lab/publications/";
