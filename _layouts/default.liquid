@@ -17,6 +17,8 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+
+    <div class="site-card">
     <!-- Header -->
     {% include header.liquid %}
 
@@ -49,6 +51,7 @@
 
     <!-- Footer -->
     {% include footer.liquid %}
+    </div><!-- /.site-card -->
 
     <!-- JavaScripts -->
     {% include scripts/jquery.liquid %}
