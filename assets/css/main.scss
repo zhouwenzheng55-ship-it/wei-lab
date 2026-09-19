@@ -87,8 +87,21 @@ body {
 .site-card {
   max-width: 900px;
   margin: 0 auto;
+  margin-top: 0;
+  padding-top: 0;
   background: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+/* Remove default body top margin/padding */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #e9e9e9 !important;
+}
+/* Remove top margin from container */
+.container.mt-5 {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 .site-banner {
   width: 100%;
