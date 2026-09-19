@@ -78,3 +78,39 @@ $max-content-width: {{ site.max_width }};
   margin: 0 auto;
 }
 
+/* === Force enlaigao-style layout: full-width banner, centered content === */
+.site-banner {
+  width: 100% !important;
+  max-width: 100% !important;
+  max-height: 320px;
+  overflow: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.banner-img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto;
+  max-height: 320px;
+  object-fit: cover;
+  display: block !important;
+  margin: 0 !important;
+}
+/* Force about content centered narrow column */
+.page > .container,
+.post > article,
+.post .clearfix {
+  max-width: 760px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+/* Override al-folio default container width */
+.container {
+  max-width: 900px !important;
+}
+/* Make banner span full viewport width, not container */
+header {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
