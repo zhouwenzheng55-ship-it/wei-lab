@@ -1,0 +1,33 @@
+I"s<h1 id="project-intros">Project Intros</h1>
+
+<p>A simple way to efficiently display your github project, or any other project as well!</p>
+
+<p>To add a project intro just set <code class="language-plaintext highlighter-rouge">project_intro</code> to <code class="language-plaintext highlighter-rouge">true</code> in the front matter. Also add icons to display the tech-stacks used in the project. Finally add relevant repositories to be displayed right below the intro.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">project_intro</span><span class="pi">:</span> <span class="kc">true</span>
+<span class="na">icons</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">file</span><span class="pi">:</span> <span class="s">javascript/javascript-original.svg</span>
+    <span class="na">site</span><span class="pi">:</span> <span class="s">devicons</span>
+  <span class="pi">-</span> <span class="na">file</span><span class="pi">:</span> <span class="s">processing</span>
+    <span class="na">site</span><span class="pi">:</span> <span class="s">skillicons</span>
+  <span class="pi">-</span> <span class="na">file</span><span class="pi">:</span> <span class="s">https://www.espressif.com/sites/all/themes/espressif/images/logo-guidelines/primary-vertical-logo.png</span>
+  <span class="na">repository</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">alshedivat/al-folio</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<h1 id="icons">Icons</h1>
+
+<p>Adding more icons is very simple. <code class="language-plaintext highlighter-rouge">icon</code> is a list, and each item on the list has a <code class="language-plaintext highlighter-rouge">file</code> and a <code class="language-plaintext highlighter-rouge">site</code>. The <code class="language-plaintext highlighter-rouge">file</code> is the icon file which will be displayed, <code class="language-plaintext highlighter-rouge">site</code> is the directory from where this file will be displayed.</p>
+
+<p>However, using <code class="language-plaintext highlighter-rouge">site</code> is optional. If the item doesn’t contain a value for site, al-folio will automatically detect and decide whether the link is an absolute URL to some icon on a different website, or a relative URL to an image inside the repository.</p>
+
+<p>Right now, the only eligible options for <code class="language-plaintext highlighter-rouge">site</code> is <code class="language-plaintext highlighter-rouge">devicons</code> and <code class="language-plaintext highlighter-rouge">skillicons</code></p>
+
+<h1 id="repository">Repository</h1>
+
+<p><code class="language-plaintext highlighter-rouge">repository</code> is also a list of all the repositories that can be displayed. Each item needs to be written in the following format: <code class="language-plaintext highlighter-rouge">owner/repository</code>.</p>
+
+<p>After this, al-folio will automatically generate a card with the proper theme. It will also create a link that will redirect viewers to the repository whenever they click the card.</p>
+:ET

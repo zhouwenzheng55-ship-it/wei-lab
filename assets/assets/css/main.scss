@@ -23,3 +23,58 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* === Custom: enlaigao-style banner and layout === */
+.site-banner {
+  width: 100%;
+  max-height: 320px;
+  overflow: hidden;
+}
+.banner-img {
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  object-fit: cover;
+  display: block;
+}
+/* About page: centered narrow column, paragraph style like enlaigao */
+.about-container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+.about-container h2 {
+  margin-top: 2rem;
+  font-weight: 600;
+}
+/* Manual numbered publication list */
+.pub-list {
+  max-width: 760px;
+  margin: 2rem auto;
+  padding-left: 1.2rem;
+  line-height: 1.7;
+}
+.pub-list li {
+  margin-bottom: 1.2rem;
+}
+/* Remove card shadows for clean academic look */
+.card {
+  border: none;
+  box-shadow: none;
+}
+/* Navbar text color */
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,0.85);
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-item.active .nav-link {
+  color: #fff;
+}
+/* Center the about page content */
+.about-content-narrow {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
