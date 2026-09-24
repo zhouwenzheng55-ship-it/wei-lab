@@ -208,3 +208,18 @@ hr, .post hr, article hr, .about-container hr {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
+
+/* Remove purple divider line ONLY, keep all other layout styles */
+.post {
+  border-top: none !important;
+}
+article {
+  border-top: none !important;
+}
+hr {
+  display: none !important;
+}
+/* Keep .site-card shadow intact */
+.site-card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.08) !important;
+}
