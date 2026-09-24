@@ -27,21 +27,21 @@ $max-content-width: {{ site.max_width }};
 /* === Custom: enlaigao-style banner and layout === */
 .site-banner {
   width: 100%;
-  max-height: 290px;
+  height: 220px !important;
   overflow: hidden;
 }
 .banner-img {
   width: 100%;
   height: auto;
-  max-height: 290px;
+  height: 220px !important;
   object-fit: cover;
   display: block;
 }
 /* About page: centered narrow column, paragraph style like enlaigao */
 .about-container {
-  max-width: 760px;
+  max-width: 800px;
   margin: 0 auto;
-  padding-top: 2rem;
+  padding: 2rem 4rem 3rem;
   line-height: 1.8;
   font-size: 1.05rem;
 }
@@ -105,7 +105,7 @@ body {
 }
 .site-banner {
   width: 100%;
-  max-height: 290px;
+  height: 220px !important;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -113,16 +113,16 @@ body {
 .banner-img {
   width: 100%;
   height: auto;
-  max-height: 290px;
+  height: 220px !important;
   object-fit: cover;
   display: block;
   margin: 0;
 }
 /* About page content inside card, centered narrow column */
 .about-container {
-  max-width: 760px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 2rem 2rem 3rem;
+  padding: 2rem 4rem 3rem;
   line-height: 1.8;
   font-size: 1.05rem;
 }
@@ -186,4 +186,5 @@ hr, .post hr, article hr {
 .card, .about-container, .news, .pub-list, .post {
   border-top: none !important;
 }
+
 
