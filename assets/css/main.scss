@@ -176,3 +176,13 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.08);
 }
 
+
+/* Remove purple/magenta divider line */
+hr, .post hr, article hr {
+  display: none !important;
+  border: none !important;
+  height: 0 !important;
+}
+.card, .about-container, .news, .pub-list, .post {
+  border-top: none !important;
+}
